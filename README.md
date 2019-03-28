@@ -14,7 +14,7 @@ This repository referenced by : https://github.com/narfunikita/NLog.Telegram
 Usage
 =====
 1. Create a TelegramBot(https://core.telegram.org/bots#3-how-do-i-create-a-bot).
-2. Configure NLog to use `NLog.Telegram`: https://github.com/nlog/nlog/wiki/Configuration-file
+2. Configure NLog to use `NLog.Telegram.Format.Core`: https://github.com/nlog/nlog/wiki/Configuration-file
 
 ### NLog.config
 
@@ -24,7 +24,7 @@ Usage
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
   <extensions>
-    <add assembly="NLog.Telegram" />
+    <add assembly="NLog.Telegram.Format.Core" />
   </extensions>
 
   <targets async="true">
